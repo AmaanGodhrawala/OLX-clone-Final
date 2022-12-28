@@ -1,0 +1,17 @@
+.Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8em;
+
+}
+.Item{
+    margin-left: 3em;
+    margin-bottom: 5em;
+    background-color: whitesmoke;
+    box-shadow: 1rem 2rem 1rem slategrey;
+    transition: transform 0.4s;
+}
+.Item:hover{
+    transform: scale(1.2);
+}

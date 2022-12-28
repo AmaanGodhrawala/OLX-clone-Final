@@ -1,0 +1,47 @@
+.Header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2PX;
+}
+.Headerleft{
+    width: 20%;
+}
+.Headermid{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 55%;
+}
+.Headerright{
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    border: 2px solid black;
+    width:30%;
+}
+.search{
+    flex: 1;
+    border: none;
+    /* width: 55%; */
+}
+.searchicon{
+    border-left: 2px solid grey;
+    background-color: black;
+    color: white;
+    padding: 0.1em 0.1em;
+}
+.loginT{
+    margin-right: 0.8em;
+}
+.sellB{
+border-radius: 999px;
+padding: 0.5em 2em;
+}
+.sellB:hover{
+    transition: ease-in-out 0.4s;
+    background-color: black;
+    color: white;
+}
